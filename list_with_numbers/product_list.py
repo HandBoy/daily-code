@@ -7,7 +7,9 @@ Follow-up: what if you can't use division?
 """
 
 
-def produtc_list(list_of_numbers):
+def product_list(list_of_numbers):
+    pass
+
     product_list = []
     for i in range(0, len(list_of_numbers)):
         prod = 1
@@ -22,8 +24,8 @@ def produtc_list(list_of_numbers):
 
 
 def main():
-    assert produtc_list([1, 2, 3, 4, 5]) == [120, 60, 40, 30, 24]
-    assert produtc_list([3, 2, 1]) == [2, 3, 6]
+    assert product_list([1, 2, 3, 4, 5]) == [120, 60, 40, 30, 24]
+    assert product_list([3, 2, 1]) == [2, 3, 6]
     print("Success!")
 
 

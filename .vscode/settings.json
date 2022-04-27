@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "/home/handboy/Workspace/venvs/daily/bin/python3.8",
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+}

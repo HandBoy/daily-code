@@ -1,10 +1,6 @@
 """
-Write a function that determines if all alpha characters in 
-a string are surrounded (the characters immediately before
-and after) by a plus sign.
-Function should return false if any alpha character present 
-in the string isn't surrounded by a plus sign.
-Otherwise the function should return true.
+Write a function that determines if all alpha characters in a string are surrounded (the characters immediately before and after) by a plus sign.
+Function should return false if any alpha character present in the string isn't surrounded by a plus sign. Otherwise the function should return true.
 """
 import pdb
 
@@ -73,8 +69,8 @@ def main():
     assert symbols("+a-") is False
     assert symbols("-a+") is False
     assert symbols("-a-") is False
-    # assert symbols("+ab+a") is False
-    # assert symbols("+a+b=") is False
+    assert symbols("+ab+a") is False
+    assert symbols("+a+b=") is False
 
     print("Success!")
 
